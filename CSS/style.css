@@ -1,0 +1,221 @@
+/***Overall Style***/
+h1{
+  font-family: Sacramento;
+  color: #66BFBF;
+  margin: 50 auto 0 auto;
+  font-size: 562.5%;
+}
+
+h2,h3,h4{
+  font-family: Montserrat, sans-serif;
+  color: #66BFBF
+}
+
+body{
+  text-align: center;
+}
+
+p{
+  font-family: merriweather;
+  line-height: 1.6;
+}
+
+hr{
+  border-top: 4px dotted grey;
+  width: 5%;
+}
+
+a:link { 
+  text-decoration: none; 
+}
+
+a:visited { 
+  text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: none;
+}
+
+a:active { 
+  text-decoration: none; 
+}
+
+/***Top-Container***/
+.top-container{
+  position: relative;
+  background-color: #eaf6f6;
+  margin: 0;
+  padding-top: 100px;
+  
+}
+
+.top-cloud{
+  position: absolute;
+  width: 150px;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/***Middle-Container***/
+.middle-container{
+  width: 800px;
+  margin: 0 auto 0 auto;
+}
+
+/***Hello***/
+.rikpan{
+  padding-top: 60px;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+.hello-text{
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+/***My Skill***/
+
+.skill,.skill-row1, .skill-row2{
+  width: 800px;
+  position: relative;
+}
+
+.skill-row2{
+  padding-bottom: 50px;
+}
+
+.h2-skill{
+  padding-top: 50px;
+}
+
+.HS-Code{
+  border-radius: 50%;
+  width: 12.5rem;
+  height: 12.5rem;
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+
+.HS-text{
+  display: inline-block;
+  width: 15rem;
+  height: 15rem;
+  text-align: left;
+  width: 500px;
+  margin-left: 300px;
+}
+
+.customs-value{
+  border-radius: 50%;
+  width: 12.5rem;
+  height: 12.5rem;
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.value-text{
+  display: inline-block;
+  width: 15rem;
+  height: 15rem;
+  text-align: left;
+  width: 500px;
+  margin-right: 300px;
+  
+}
+
+.hr-skill{
+  margin-bottom: 100px;
+}
+
+/***Bottom-Container***/
+
+.bottom-container{
+  width: 750px;
+  margin: 0 auto 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+/***Button***/
+.button {
+    background: #66BFBF;
+    background-color: #66bfbf;
+    border-radius: 8px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    width:fit-content;
+    font-weight: 1500;
+    margin: 0 auto;
+  }
+  
+.button-text{
+  color: #ffffff;
+}
+  
+  .button:hover {
+    background-color: darkcyan;
+  }
+
+  /***External-Link***/
+  .external-media{
+    position: relative;
+    display: block;
+    height: 150px;
+    background-color: #66bfbf;
+    margin-top: 100px;
+  }
+  
+  .social-media{
+    position: relative;
+    width: 25%;
+    height: 80px;
+    color: #11999e;
+    font-family: montserrat;
+    font-weight: 900;
+    margin: 0 auto;
+
+  }
+
+  .linkedin{
+    position: absolute;
+    left: 10%;  
+    top: 50%;
+  }
+
+  .instagram{
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: 50%;
+  }
+
+  .website{
+    position: absolute;
+    right: 10%;  
+    top: 50%;
+  }
+
+  .copyright{
+    color: #ffffff;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    right: 30%;
+    font-size: 75%;
+  }
